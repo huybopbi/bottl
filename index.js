@@ -2,10 +2,10 @@ const fs = require('fs');
 const TelegramBot = require('node-telegram-bot-api');
 const http = require("http");
 // Thay [TOKEN-TELEGRAM-BOT] bằng token của bot Telegram của bạn
-  const bot = new TelegramBot('TOKEN', { polling: true });
+  const bot = new TelegramBot('6139932730:AAEnb1culzUcPdRfKxXO20bl5LrkQ4eJQFs', { polling: true });
 const balanceDBPath = './money.json';
-let admin = 'id admin'
-let box = 'id box'
+let admin = '1655741685'
+let box = '-1001768659782 '
 let balanceDB = {};
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
