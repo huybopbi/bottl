@@ -10,7 +10,7 @@ let balanceDB = {};
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/plain");
-  res.end("Code Được Tạo Bởi HuyKaiser TeleGram: @huykaiserOwO");
+  res.end("VPNFAST BOT");
 });
 server.listen(3000, () => {
   console.log("Server running on port 3000");
@@ -193,7 +193,6 @@ bot.onText(/\/start/, async (msg) => {
 ➡️ Khi BOT trả lời mới được tính là đã cược thành công ngược lại sẻ tính là bill lỗi không được hệ thống ghi nhận (không mất tiền)
 
 ✅ Tham gia nhóm để nhận nhận lộc hàng ngày bạn nhé 
-https://t.me/+lE4C0T0PNUc0MTll
 `, { parse_mode: "Markdown" });
 });
 // Lệnh xem số dư
